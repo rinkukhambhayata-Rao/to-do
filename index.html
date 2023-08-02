@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>To-Do</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+    <body>
+        <center><h3>My To-Do list</h3></center>
+        <div class="container mt-3">
+            <form>
+                <div class="row">
+                    <div class="col-md-11">
+                        <input class="form-control" type="text" name="taskInput" id="taskInput" placeholder="Enter your task here" required>
+                    </div>
+                    <div class="col-md-1">
+                        <button class="btn btn-success" type="button" id="addTask">ADD</button>
+                    </div>
+                </div>
+            </form>
+            <h4>My Tasks</h4>
+            <div class="my-task-list list-group" id="toDoList">
+                <p><center>No Tasks added</center></p>
+            </div>
+        </div>
+    </body>
+</html>
